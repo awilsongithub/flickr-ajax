@@ -100,6 +100,23 @@ textarea {
    .collection .collection-item.avatar .title {
        line-height: 40px;
    }
+   #search-form {
+       width: 300px;
+   }
+   input, button {
+       height: 3rem;
+   }
+   button.cats, button.dogs, button.rats, input[type=submit] {
+       width: 30%;
+       cursor: pointer;
+   }
+   button:hover, input[type=submit]:hover {
+       background: #eee;
+   }
+   input[type=text].search-field {
+       width: 61%;
+       display: inline;
+   }
 
 /* ==========================================================================
    Helper classes
